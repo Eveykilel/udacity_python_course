@@ -8,4 +8,5 @@
 
 speed_of_light = 299792458.0 
 cycles_per_second = 2700000000.0
-print 299792458.0 / 2700000000.0
+cycle_distance = speed_of_light / cycles_per_second
+print cycle_distance
